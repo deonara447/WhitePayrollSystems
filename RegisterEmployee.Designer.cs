@@ -185,14 +185,14 @@
             // 
             // btnSubmit
             // 
-            this.btnSubmit.BackColor = System.Drawing.SystemColors.Highlight;
+            this.btnSubmit.BackColor = System.Drawing.Color.SlateGray;
             this.btnSubmit.Font = new System.Drawing.Font("Calibri", 10.2F, System.Drawing.FontStyle.Bold);
             this.btnSubmit.ForeColor = System.Drawing.SystemColors.ButtonFace;
             this.btnSubmit.Location = new System.Drawing.Point(439, 305);
             this.btnSubmit.Margin = new System.Windows.Forms.Padding(2);
             this.btnSubmit.Name = "btnSubmit";
             this.btnSubmit.Size = new System.Drawing.Size(154, 25);
-            this.btnSubmit.TabIndex = 49;
+            this.btnSubmit.TabIndex = 57;
             this.btnSubmit.Text = "Submit";
             this.btnSubmit.UseVisualStyleBackColor = false;
             this.btnSubmit.Click += new System.EventHandler(this.btnSubmit_Click);
@@ -203,7 +203,7 @@
             this.txtAllocatedVacation.Margin = new System.Windows.Forms.Padding(2);
             this.txtAllocatedVacation.Name = "txtAllocatedVacation";
             this.txtAllocatedVacation.Size = new System.Drawing.Size(134, 20);
-            this.txtAllocatedVacation.TabIndex = 48;
+            this.txtAllocatedVacation.TabIndex = 52;
             // 
             // txtAllocatedHours
             // 
@@ -211,7 +211,7 @@
             this.txtAllocatedHours.Margin = new System.Windows.Forms.Padding(2);
             this.txtAllocatedHours.Name = "txtAllocatedHours";
             this.txtAllocatedHours.Size = new System.Drawing.Size(134, 20);
-            this.txtAllocatedHours.TabIndex = 47;
+            this.txtAllocatedHours.TabIndex = 51;
             // 
             // txtAccountBranch
             // 
@@ -219,7 +219,7 @@
             this.txtAccountBranch.Margin = new System.Windows.Forms.Padding(2);
             this.txtAccountBranch.Name = "txtAccountBranch";
             this.txtAccountBranch.Size = new System.Drawing.Size(87, 20);
-            this.txtAccountBranch.TabIndex = 45;
+            this.txtAccountBranch.TabIndex = 48;
             this.txtAccountBranch.Text = "****";
             // 
             // txtAccountTransit
@@ -228,7 +228,7 @@
             this.txtAccountTransit.Margin = new System.Windows.Forms.Padding(2);
             this.txtAccountTransit.Name = "txtAccountTransit";
             this.txtAccountTransit.Size = new System.Drawing.Size(91, 20);
-            this.txtAccountTransit.TabIndex = 44;
+            this.txtAccountTransit.TabIndex = 47;
             this.txtAccountTransit.Text = "******";
             // 
             // txtAccountNumber
@@ -237,7 +237,7 @@
             this.txtAccountNumber.Margin = new System.Windows.Forms.Padding(2);
             this.txtAccountNumber.Name = "txtAccountNumber";
             this.txtAccountNumber.Size = new System.Drawing.Size(98, 20);
-            this.txtAccountNumber.TabIndex = 43;
+            this.txtAccountNumber.TabIndex = 46;
             this.txtAccountNumber.Text = "******";
             // 
             // txtPhoneNumber
@@ -301,7 +301,7 @@
             this.txtTitle.Margin = new System.Windows.Forms.Padding(2);
             this.txtTitle.Name = "txtTitle";
             this.txtTitle.Size = new System.Drawing.Size(283, 20);
-            this.txtTitle.TabIndex = 62;
+            this.txtTitle.TabIndex = 43;
             // 
             // label3
             // 
@@ -331,7 +331,7 @@
             this.txtEmploymentStartDate.Margin = new System.Windows.Forms.Padding(2);
             this.txtEmploymentStartDate.Name = "txtEmploymentStartDate";
             this.txtEmploymentStartDate.Size = new System.Drawing.Size(134, 20);
-            this.txtEmploymentStartDate.TabIndex = 65;
+            this.txtEmploymentStartDate.TabIndex = 45;
             this.txtEmploymentStartDate.Text = "Year - Month - Day";
             // 
             // txtDOB
@@ -340,7 +340,7 @@
             this.txtDOB.Margin = new System.Windows.Forms.Padding(2);
             this.txtDOB.Name = "txtDOB";
             this.txtDOB.Size = new System.Drawing.Size(134, 20);
-            this.txtDOB.TabIndex = 64;
+            this.txtDOB.TabIndex = 44;
             this.txtDOB.Text = "Year - Month - Day";
             // 
             // label16
@@ -360,7 +360,7 @@
             this.txtSocialInsuranceNumber.Margin = new System.Windows.Forms.Padding(2);
             this.txtSocialInsuranceNumber.Name = "txtSocialInsuranceNumber";
             this.txtSocialInsuranceNumber.Size = new System.Drawing.Size(283, 20);
-            this.txtSocialInsuranceNumber.TabIndex = 68;
+            this.txtSocialInsuranceNumber.TabIndex = 56;
             // 
             // label17
             // 
@@ -379,7 +379,7 @@
             this.txtStartDatePayCycle.Margin = new System.Windows.Forms.Padding(2);
             this.txtStartDatePayCycle.Name = "txtStartDatePayCycle";
             this.txtStartDatePayCycle.Size = new System.Drawing.Size(283, 20);
-            this.txtStartDatePayCycle.TabIndex = 70;
+            this.txtStartDatePayCycle.TabIndex = 50;
             this.txtStartDatePayCycle.Text = "Year - Month - Day";
             // 
             // label18
@@ -410,7 +410,7 @@
             this.txtAllocatedHealthDays.Margin = new System.Windows.Forms.Padding(2);
             this.txtAllocatedHealthDays.Name = "txtAllocatedHealthDays";
             this.txtAllocatedHealthDays.Size = new System.Drawing.Size(134, 20);
-            this.txtAllocatedHealthDays.TabIndex = 72;
+            this.txtAllocatedHealthDays.TabIndex = 53;
             // 
             // label20
             // 
@@ -429,18 +429,18 @@
             this.txtPayRate.Margin = new System.Windows.Forms.Padding(2);
             this.txtPayRate.Name = "txtPayRate";
             this.txtPayRate.Size = new System.Drawing.Size(283, 20);
-            this.txtPayRate.TabIndex = 76;
+            this.txtPayRate.TabIndex = 55;
             // 
             // btnDashboard
             // 
-            this.btnDashboard.BackColor = System.Drawing.SystemColors.Highlight;
+            this.btnDashboard.BackColor = System.Drawing.Color.SlateGray;
             this.btnDashboard.Font = new System.Drawing.Font("Calibri", 10.2F, System.Drawing.FontStyle.Bold);
             this.btnDashboard.ForeColor = System.Drawing.SystemColors.ButtonFace;
             this.btnDashboard.Location = new System.Drawing.Point(14, 387);
             this.btnDashboard.Margin = new System.Windows.Forms.Padding(2);
             this.btnDashboard.Name = "btnDashboard";
             this.btnDashboard.Size = new System.Drawing.Size(156, 26);
-            this.btnDashboard.TabIndex = 78;
+            this.btnDashboard.TabIndex = 58;
             this.btnDashboard.Text = "Dashboard";
             this.btnDashboard.UseVisualStyleBackColor = false;
             this.btnDashboard.Click += new System.EventHandler(this.btnDashboard_Click_1);
@@ -452,7 +452,7 @@
             this.cmbPayCycle.Margin = new System.Windows.Forms.Padding(2);
             this.cmbPayCycle.Name = "cmbPayCycle";
             this.cmbPayCycle.Size = new System.Drawing.Size(283, 21);
-            this.cmbPayCycle.TabIndex = 80;
+            this.cmbPayCycle.TabIndex = 49;
             // 
             // cmbAllocatedBenefits
             // 
@@ -461,7 +461,7 @@
             this.cmbAllocatedBenefits.Margin = new System.Windows.Forms.Padding(2);
             this.cmbAllocatedBenefits.Name = "cmbAllocatedBenefits";
             this.cmbAllocatedBenefits.Size = new System.Drawing.Size(134, 21);
-            this.cmbAllocatedBenefits.TabIndex = 81;
+            this.cmbAllocatedBenefits.TabIndex = 54;
             // 
             // label5
             // 

@@ -134,7 +134,7 @@
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(252, 78);
+            this.label4.Location = new System.Drawing.Point(252, 87);
             this.label4.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(109, 19);
@@ -145,7 +145,7 @@
             // 
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(279, 218);
+            this.label6.Location = new System.Drawing.Point(279, 230);
             this.label6.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(82, 19);
@@ -156,7 +156,7 @@
             // 
             this.lblPayCycle.AutoSize = true;
             this.lblPayCycle.Font = new System.Drawing.Font("Calibri", 28.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblPayCycle.Location = new System.Drawing.Point(248, 97);
+            this.lblPayCycle.Location = new System.Drawing.Point(248, 111);
             this.lblPayCycle.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblPayCycle.Name = "lblPayCycle";
             this.lblPayCycle.Size = new System.Drawing.Size(39, 46);
@@ -167,7 +167,7 @@
             // 
             this.lblNumberEmployees.AutoSize = true;
             this.lblNumberEmployees.Font = new System.Drawing.Font("Calibri", 28.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblNumberEmployees.Location = new System.Drawing.Point(297, 237);
+            this.lblNumberEmployees.Location = new System.Drawing.Point(297, 249);
             this.lblNumberEmployees.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblNumberEmployees.Name = "lblNumberEmployees";
             this.lblNumberEmployees.Size = new System.Drawing.Size(39, 46);
@@ -197,7 +197,7 @@
             this.btnTimeSheet.Margin = new System.Windows.Forms.Padding(2);
             this.btnTimeSheet.Name = "btnTimeSheet";
             this.btnTimeSheet.Size = new System.Drawing.Size(200, 49);
-            this.btnTimeSheet.TabIndex = 19;
+            this.btnTimeSheet.TabIndex = 21;
             this.btnTimeSheet.Text = "Time Sheet";
             this.btnTimeSheet.UseVisualStyleBackColor = false;
             this.btnTimeSheet.Click += new System.EventHandler(this.btnTimeSheet_Click);
@@ -225,7 +225,7 @@
             this.btnPayments.Margin = new System.Windows.Forms.Padding(2);
             this.btnPayments.Name = "btnPayments";
             this.btnPayments.Size = new System.Drawing.Size(200, 49);
-            this.btnPayments.TabIndex = 21;
+            this.btnPayments.TabIndex = 19;
             this.btnPayments.Text = "Payments";
             this.btnPayments.UseVisualStyleBackColor = false;
             this.btnPayments.Click += new System.EventHandler(this.btnPayments_Click);
@@ -239,7 +239,7 @@
             this.btnExit.Margin = new System.Windows.Forms.Padding(2);
             this.btnExit.Name = "btnExit";
             this.btnExit.Size = new System.Drawing.Size(198, 26);
-            this.btnExit.TabIndex = 80;
+            this.btnExit.TabIndex = 23;
             this.btnExit.Text = "Exit";
             this.btnExit.UseVisualStyleBackColor = false;
             this.btnExit.Click += new System.EventHandler(this.btnExit_Click_1);
@@ -253,7 +253,7 @@
             this.btnLogout.Margin = new System.Windows.Forms.Padding(2);
             this.btnLogout.Name = "btnLogout";
             this.btnLogout.Size = new System.Drawing.Size(198, 24);
-            this.btnLogout.TabIndex = 81;
+            this.btnLogout.TabIndex = 22;
             this.btnLogout.Text = "Logout";
             this.btnLogout.UseVisualStyleBackColor = false;
             this.btnLogout.Click += new System.EventHandler(this.btnLogout_Click);

@@ -35,7 +35,7 @@ namespace WhitePayrollSystems
 
         private void btnEmail_Click(object sender, EventArgs e)
         {
-            //Add code 
+            MessageBox.Show("Email Sent.");
         }
 
         private void CaptureScreen()

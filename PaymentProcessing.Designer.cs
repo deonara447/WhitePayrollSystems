@@ -120,7 +120,7 @@
             // txtHourlyRate
             // 
             this.txtHourlyRate.Location = new System.Drawing.Point(10, 222);
-            this.txtHourlyRate.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtHourlyRate.Margin = new System.Windows.Forms.Padding(2);
             this.txtHourlyRate.Name = "txtHourlyRate";
             this.txtHourlyRate.Size = new System.Drawing.Size(283, 20);
             this.txtHourlyRate.TabIndex = 34;
@@ -128,7 +128,7 @@
             // txtUsedBenefits
             // 
             this.txtUsedBenefits.Location = new System.Drawing.Point(10, 184);
-            this.txtUsedBenefits.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtUsedBenefits.Margin = new System.Windows.Forms.Padding(2);
             this.txtUsedBenefits.Name = "txtUsedBenefits";
             this.txtUsedBenefits.Size = new System.Drawing.Size(283, 20);
             this.txtUsedBenefits.TabIndex = 33;
@@ -136,7 +136,7 @@
             // txtUsedHealthDays
             // 
             this.txtUsedHealthDays.Location = new System.Drawing.Point(160, 147);
-            this.txtUsedHealthDays.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtUsedHealthDays.Margin = new System.Windows.Forms.Padding(2);
             this.txtUsedHealthDays.Name = "txtUsedHealthDays";
             this.txtUsedHealthDays.Size = new System.Drawing.Size(134, 20);
             this.txtUsedHealthDays.TabIndex = 32;
@@ -144,7 +144,7 @@
             // txtUsedVacationDays
             // 
             this.txtUsedVacationDays.Location = new System.Drawing.Point(10, 147);
-            this.txtUsedVacationDays.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtUsedVacationDays.Margin = new System.Windows.Forms.Padding(2);
             this.txtUsedVacationDays.Name = "txtUsedVacationDays";
             this.txtUsedVacationDays.Size = new System.Drawing.Size(134, 20);
             this.txtUsedVacationDays.TabIndex = 31;
@@ -152,7 +152,7 @@
             // txtHoursWorked
             // 
             this.txtHoursWorked.Location = new System.Drawing.Point(10, 110);
-            this.txtHoursWorked.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtHoursWorked.Margin = new System.Windows.Forms.Padding(2);
             this.txtHoursWorked.Name = "txtHoursWorked";
             this.txtHoursWorked.Size = new System.Drawing.Size(283, 20);
             this.txtHoursWorked.TabIndex = 30;
@@ -163,10 +163,10 @@
             this.btnCancel.Font = new System.Drawing.Font("Calibri", 10.2F, System.Drawing.FontStyle.Bold);
             this.btnCancel.ForeColor = System.Drawing.SystemColors.ButtonFace;
             this.btnCancel.Location = new System.Drawing.Point(157, 297);
-            this.btnCancel.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnCancel.Margin = new System.Windows.Forms.Padding(2);
             this.btnCancel.Name = "btnCancel";
             this.btnCancel.Size = new System.Drawing.Size(136, 28);
-            this.btnCancel.TabIndex = 41;
+            this.btnCancel.TabIndex = 37;
             this.btnCancel.Text = "Cancel";
             this.btnCancel.UseVisualStyleBackColor = false;
             this.btnCancel.Click += new System.EventHandler(this.btnCancel_Click);
@@ -177,10 +177,10 @@
             this.btnSubmit.Font = new System.Drawing.Font("Calibri", 10.2F, System.Drawing.FontStyle.Bold);
             this.btnSubmit.ForeColor = System.Drawing.SystemColors.ButtonFace;
             this.btnSubmit.Location = new System.Drawing.Point(8, 297);
-            this.btnSubmit.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnSubmit.Margin = new System.Windows.Forms.Padding(2);
             this.btnSubmit.Name = "btnSubmit";
             this.btnSubmit.Size = new System.Drawing.Size(134, 28);
-            this.btnSubmit.TabIndex = 40;
+            this.btnSubmit.TabIndex = 36;
             this.btnSubmit.Text = "Process Payment";
             this.btnSubmit.UseVisualStyleBackColor = false;
             this.btnSubmit.Click += new System.EventHandler(this.btnSubmit_Click);
@@ -210,17 +210,17 @@
             // txtAmount
             // 
             this.txtAmount.Location = new System.Drawing.Point(8, 266);
-            this.txtAmount.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtAmount.Margin = new System.Windows.Forms.Padding(2);
             this.txtAmount.Name = "txtAmount";
             this.txtAmount.Size = new System.Drawing.Size(283, 20);
-            this.txtAmount.TabIndex = 44;
+            this.txtAmount.TabIndex = 35;
             // 
             // cmbEmployeeName
             // 
             this.cmbEmployeeName.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cmbEmployeeName.FormattingEnabled = true;
             this.cmbEmployeeName.Location = new System.Drawing.Point(10, 69);
-            this.cmbEmployeeName.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.cmbEmployeeName.Margin = new System.Windows.Forms.Padding(2);
             this.cmbEmployeeName.Name = "cmbEmployeeName";
             this.cmbEmployeeName.Size = new System.Drawing.Size(283, 21);
             this.cmbEmployeeName.TabIndex = 1;
@@ -238,7 +238,7 @@
             // 
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
             this.pictureBox1.Location = new System.Drawing.Point(553, 7);
-            this.pictureBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(2);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(38, 37);
             this.pictureBox1.TabIndex = 90;
@@ -269,7 +269,7 @@
             this.Controls.Add(this.txtHoursWorked);
             this.Controls.Add(this.label1);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "PaymentProcessing";
             this.Text = "PaymentProcessing";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
